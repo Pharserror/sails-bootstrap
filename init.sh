@@ -12,4 +12,4 @@ git clone https://$BITBUCKET_USER:$BITBUCKET_PASS@bitbucket.org/$BITBUCKET_USER/
 cd ./$BITBUCKET_PROJECT
 
 /bin/bash -l -c 'npm install'
-sudo sails lift --port 80
+sudo sails lift

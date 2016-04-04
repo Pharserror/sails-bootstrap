@@ -37,4 +37,4 @@ RUN sudo chown worker:worker /init.sh
 RUN sudo chmod +x /init.sh
 ENTRYPOINT ["/init.sh"]
 
-EXPOSE 80
+EXPOSE 1337
